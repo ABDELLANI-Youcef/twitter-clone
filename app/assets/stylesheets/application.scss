@@ -15,3 +15,26 @@
  */
 
 @import "bulma";
+
+.navbar-brand .title {
+  color: white;
+}
+
+// round image
+.image {
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* to delete later */
+.field.is-grouped {
+  padding-top: 5px;
+  padding-right: 30px;
+}
+/* end : to delete later */
